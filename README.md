@@ -4,7 +4,7 @@ This is a simple React application that allows users to add products to a shoppi
 
 > Demo
 >
-> Vercel Link: https://prems-shopping-cart.vercel.app/
+> Vercel Link: https://ecloto-shopping-cart.vercel.app/
 
 ## Features
 
