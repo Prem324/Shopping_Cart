@@ -1,0 +1,133 @@
+.cart-items {
+  margin-top: 20px;
+}
+.cart-items-heading {
+  color: #202b3a;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.cart-item-name {
+  font-weight: 600;
+}
+.cart-item-subtotal {
+  font-size: 0.8rem;
+  color: gray;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decrease-quantity {
+  background-color: #fb2c37;
+  margin: 0 5px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.increase-quantity {
+  background-color: #00c951;
+  margin: 0 5px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.quantity-controls button:hover {
+  opacity: 0.8;
+}
+
+span {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0px 0.8rem;
+}
+
+.remove-btn {
+  padding: 6px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+.remove-btn:hover {
+  background-color: #b52a37;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-container {
+  background: #d1ecf1;
+  padding: 5px;
+  border-radius: 5px;
+  color: #0c5460;
+  margin-top: 10px;
+  position: relative;
+}
+
+.empty-cart {
+  margin-top: 1.6rem;
+  padding: 2rem 1rem;
+  background: #fff;
+  color: gray;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.06);
+}
+
+.empty-cart-description {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.empty-cart-note {
+  font-size: 0.8rem;
+}
+.free-gift {
+  background-color: #dcfce7;
+  color: #117735;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

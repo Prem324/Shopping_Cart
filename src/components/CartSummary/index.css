@@ -1,0 +1,47 @@
+.free-gift-container {
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.06);
+}
+
+.subtotal-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtotal-heading {
+  font-weight: 600;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.hr-line {
+  margin-top: 0.5rem;
+}
+.eligibility-track-container {
+  text-align: left;
+  background-color: #eff6ff;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.eligibility-note {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.progress-bar {
+  color: red;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s ease-in-out;
+  background: gray;
+  margin-top: 0.5rem;
+}
